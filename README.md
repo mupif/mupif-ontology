@@ -39,4 +39,4 @@ This perspective contains the ontological description of concepts used in MuPIF 
 * emmo-repo/EMMO: Elementary Multiperspective Material Ontology (EMMO), https://github.com/emmo-repo/EMMO
 
 ## Acknowledgement
-This work has been supported by DeeMa project(Deep-Learning and Optimisation Enabled Material Microstructure Design), funded by Technology Agency of the Czech Republic, grant agreement no. TH75020002.  
+This work has been supported by DeeMa project (Deep-Learning and Optimisation Enabled Material Microstructure Design), funded by Technology Agency of the Czech Republic, grant agreement no. TH75020002.  
