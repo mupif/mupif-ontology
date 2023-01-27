@@ -1,6 +1,8 @@
 # MuPIF-ontology
 MuPIF is open-source, modular, object-oriented integration platform allowing to create complex, distributed, multiphysics simulation workflows. This repository  contains ontological model of MuPIF. The ontology is organized into different perspectives. 
 
+In order to be able to view and navigate the MuPIF ontology we recommend to download the Protégé editor from [https://protege.stanford.edu/products.php#desktop-protege](https://protege.stanford.edu/products.php#desktop-protege).
+
 ## MuPIF Core Perspective
 MuPIF core perspective provides an ontological model of MuPIF. The fundamental MuPIF entities are
 * Model - representing the (mathematical) description of a system or process. Model has input and output variables and services that allow to manipulate the model state and steer it.
