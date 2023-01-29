@@ -7,7 +7,7 @@ In order to be able to view and navigate the MuPIF ontology we recommend to down
 MuPIF core perspective provides an ontological model of MuPIF. The fundamental MuPIF entities are
 * Model - representing the (mathematical) description of a system or process. Model has input and output variables and services that allow to manipulate the model state and steer it.
 * Workflow - representing a (complex) simulation build from individual models. Workflow itself is a model, allowing it to be used inside other (more complex) workflows. 
-* Variables - represent variables of given type, with defined physical meaning and units.
+* DataVariables - represent variables of given type (DataType), with defined physical meaning and units.
 * DataType - represent data type supported by the platform. All the data exchange within the platform (and within workflows) is performed using variables with DataType type.
 * Service - represent (standardized) service provided by MuPIF entities, such as Models, Workflows and individual DataType instances. 
 * Metadata - represent metadata describing individual entities. Metadata structure is defined by metadata schema, allowing for validation. 
@@ -24,7 +24,7 @@ MuPIF comes with a Data Management System (DMS) called MuPIFDB. The DMS is used 
 This perspective contains the ontological description of concepts used in MuPIF Workflow editor. The Workflow editor is a graphical tool, which allows users to compose workflow from basic building blocks, while connecting their IO ports. The core entities are following:
 * WorkflowBlock - top level class representing generic building block, each block has its input and output slots (with defined physical meaning). Derived entities are, for example:
   * SequentialBlock - representing (sequential) sequence of nested blocks
-  * ModelBlock - representing single model execution, the inputs and outputs slots corresponds to Model IO variables
+  * ModelBlock - representing single model execution, the inputs and outputs slots correspond to DataVariables.
   * DoWhileBlock - represent do while control structure, with condition and execution block to be evaluated while condition holds.
 * DataLink - representing a connection between a single source (input)  slot of WokflowBlock and multiple destination (output) slots. DataLink should connect slots of the same type
 
