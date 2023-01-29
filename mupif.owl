@@ -12,75 +12,82 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_02e87c7d_52fa_4c77_8624_62fa8244e737
+###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#entityRelation
+:entityRelation rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :MuPIF_02e87c7d_52fa_4c77_8624_62fa8244e737 ;
+                rdfs:range :MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798 ,
+                           :MuPIF_a107aa49_ecd7_4997_94d5_a90110763d42 .
+
+
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_02e87c7d_52fa_4c77_8624_62fa8244e737
 :MuPIF_02e87c7d_52fa_4c77_8624_62fa8244e737 rdf:type owl:ObjectProperty ;
                                             rdfs:label "relation"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_0d658f90_92c5_4455_a931_cafc3c2b488b
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_0d658f90_92c5_4455_a931_cafc3c2b488b
 :MuPIF_0d658f90_92c5_4455_a931_cafc3c2b488b rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf :MuPIF_97fb19ae_6f50_4435_a3f1_876d25843feb ;
                                             rdfs:label "hasNext"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_1c7b9609_b6cd_4f08_a522_2a7c97ec4c5c
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_1c7b9609_b6cd_4f08_a522_2a7c97ec4c5c
 :MuPIF_1c7b9609_b6cd_4f08_a522_2a7c97ec4c5c rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf :MuPIF_78170d36_d370_4eb9_8aac_0eab0d68ab2d ;
                                             rdfs:label "hasUnit"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be
 :MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be rdf:type owl:ObjectProperty ;
                                             rdfs:label "hasOutput"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_42b451bd_f9d8_4f30_a6f8_dab399439186
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_42b451bd_f9d8_4f30_a6f8_dab399439186
 :MuPIF_42b451bd_f9d8_4f30_a6f8_dab399439186 rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf :MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b ;
                                             rdfs:label "hasSpatialPart"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_42c46cf8_80eb_4b0f_806f_cc9da0e4995e
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_42c46cf8_80eb_4b0f_806f_cc9da0e4995e
 :MuPIF_42c46cf8_80eb_4b0f_806f_cc9da0e4995e rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf :MuPIF_78170d36_d370_4eb9_8aac_0eab0d68ab2d ;
                                             rdfs:label "hasLabel"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_78170d36_d370_4eb9_8aac_0eab0d68ab2d
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_78170d36_d370_4eb9_8aac_0eab0d68ab2d
 :MuPIF_78170d36_d370_4eb9_8aac_0eab0d68ab2d rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf :MuPIF_02e87c7d_52fa_4c77_8624_62fa8244e737 ;
                                             rdfs:label "composition"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_91d8dae8_ba0f_42df_81e8_1d2d5a6d7c89
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_91d8dae8_ba0f_42df_81e8_1d2d5a6d7c89
 :MuPIF_91d8dae8_ba0f_42df_81e8_1d2d5a6d7c89 rdf:type owl:ObjectProperty ;
                                             rdfs:label "hasType"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_97fb19ae_6f50_4435_a3f1_876d25843feb
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_97fb19ae_6f50_4435_a3f1_876d25843feb
 :MuPIF_97fb19ae_6f50_4435_a3f1_876d25843feb rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf :MuPIF_02e87c7d_52fa_4c77_8624_62fa8244e737 ;
                                             rdfs:label "connection"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_abf5d220_f129_4a55_9174_5d4a925b9892
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_abf5d220_f129_4a55_9174_5d4a925b9892
 :MuPIF_abf5d220_f129_4a55_9174_5d4a925b9892 rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf owl:topObjectProperty ;
                                             rdfs:label "hasInput"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_b1fbdf0c_1c0f_41d1_86d0_fcf0c56284d6
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_b1fbdf0c_1c0f_41d1_86d0_fcf0c56284d6
 :MuPIF_b1fbdf0c_1c0f_41d1_86d0_fcf0c56284d6 rdf:type owl:ObjectProperty ;
                                             rdfs:label "hasService"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_c37cc1fc_b82e_4123_a3f3_1226fa7bb2ea
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_c37cc1fc_b82e_4123_a3f3_1226fa7bb2ea
 :MuPIF_c37cc1fc_b82e_4123_a3f3_1226fa7bb2ea rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf :MuPIF_97fb19ae_6f50_4435_a3f1_876d25843feb ;
                                             rdfs:label "mapTo"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b
 :MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf :MuPIF_78170d36_d370_4eb9_8aac_0eab0d68ab2d ;
                                             rdfs:label "hasPart"@en .
@@ -90,7 +97,15 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_0dbc68a0_37b9_4c2e_b531_8380f50e1c44
+###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#Name
+:Name rdf:type owl:DatatypeProperty ;
+      rdfs:domain [ rdf:type owl:Restriction ;
+                    owl:onProperty :Name ;
+                    owl:someValuesFrom xsd:string
+                  ] .
+
+
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_0dbc68a0_37b9_4c2e_b531_8380f50e1c44
 :MuPIF_0dbc68a0_37b9_4c2e_b531_8380f50e1c44 rdf:type owl:DatatypeProperty ;
                                             rdfs:label "Label"@en .
 
@@ -109,41 +124,68 @@
                                                                                         rdfs:label "EMMO:Existent" .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#EDM
+###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#Service
+:Service rdf:type owl:Class ;
+         rdfs:subClassOf :MuPIF_c4d8bca3_7c72_4081_84d2_e99d79929616 ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b ;
+                           owl:someValuesFrom :ServiceParameter
+                         ] .
+
+
+###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#ServiceParameter
+:ServiceParameter rdf:type owl:Class ;
+                  rdfs:subClassOf :MuPIF_c4d8bca3_7c72_4081_84d2_e99d79929616 ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :MuPIF_91d8dae8_ba0f_42df_81e8_1d2d5a6d7c89 ;
+                                    owl:someValuesFrom :ServiceParameterType
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :Name ;
+                                    owl:someValuesFrom xsd:string
+                                  ] .
+
+
+###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#ServiceParameterType
+:ServiceParameterType rdf:type owl:Class ;
+                      rdfs:subClassOf :MuPIF_c4d8bca3_7c72_4081_84d2_e99d79929616 .
+
+
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#EDM
 :EDM rdf:type owl:Class ;
      rdfs:subClassOf :Perspective .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF
 :MuPIF rdf:type owl:Class ;
        rdfs:subClassOf :Perspective .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_03085fce_5950_4a5e_9879_d959ab85e3a4
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_03085fce_5950_4a5e_9879_d959ab85e3a4
 :MuPIF_03085fce_5950_4a5e_9879_d959ab85e3a4 rdf:type owl:Class ;
-                                            rdfs:subClassOf :MuPIF_c4d8bca3_7c72_4081_84d2_e99d79929616 ;
+                                            rdfs:subClassOf :Service ;
                                             rdfs:label "ModelServices"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_0c9fea85_0fe5_4dc4_a1fc_2339476cd047
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_0c9fea85_0fe5_4dc4_a1fc_2339476cd047
 :MuPIF_0c9fea85_0fe5_4dc4_a1fc_2339476cd047 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_ba56ca0e_39f9_4af6_869d_d1cf01ec0dbb ;
                                             rdfs:label "Property"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_134e7b35_7990_419b_963e_26f8c7145663
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_134e7b35_7990_419b_963e_26f8c7145663
 :MuPIF_134e7b35_7990_419b_963e_26f8c7145663 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_ba56ca0e_39f9_4af6_869d_d1cf01ec0dbb ;
                                             rdfs:label "Field"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_33155833_5a46_428b_a828_4c03c126646f
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_33155833_5a46_428b_a828_4c03c126646f
 :MuPIF_33155833_5a46_428b_a828_4c03c126646f rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_03085fce_5950_4a5e_9879_d959ab85e3a4 ;
-                                            rdfs:label "get_Service"@en .
+                                            rdfs:label "getService"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_4356272c_038e_4883_8092_2dfe01810e0c
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_4356272c_038e_4883_8092_2dfe01810e0c
 :MuPIF_4356272c_038e_4883_8092_2dfe01810e0c rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_82b02f0b_921d_48fc_947d_a22ac00655c8 ,
                                                             [ rdf:type owl:Restriction ;
@@ -153,7 +195,7 @@
                                             rdfs:label "ModelBlock"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_4841755e_b75b_41b4_972e_a2e0c0ffa6f0
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_4841755e_b75b_41b4_972e_a2e0c0ffa6f0
 :MuPIF_4841755e_b75b_41b4_972e_a2e0c0ffa6f0 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_e46c8863_3745_48ed_bb1e_45da15e60166 ,
                                                             [ rdf:type owl:Restriction ;
@@ -172,22 +214,26 @@
                                             rdfs:label "SimulationWorkflowExecution"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_4b213c59_bd28_40f2_9686_5304fcae4a43
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_4b213c59_bd28_40f2_9686_5304fcae4a43
 :MuPIF_4b213c59_bd28_40f2_9686_5304fcae4a43 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_82b02f0b_921d_48fc_947d_a22ac00655c8 ;
                                             rdfs:label "doWhileBlock"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_4eb6c6f6_d7a7_47f9_adb9_75a06e290299
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_4eb6c6f6_d7a7_47f9_adb9_75a06e290299
 :MuPIF_4eb6c6f6_d7a7_47f9_adb9_75a06e290299 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798 ;
                                             rdfs:label "ProcessState"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798
 :MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798 rdf:type owl:Class ;
                                             rdfs:subClassOf <http://emmo.info/emmo/middle/reductionistic#EMMO_36c79456_e29c_400d_8bd3_0eedddb82652> ,
                                                             :EDM ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :entityRelation ;
+                                                              owl:someValuesFrom :MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798
+                                                            ] ,
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty :MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b ;
                                                               owl:someValuesFrom :MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798
@@ -199,19 +245,19 @@
                                             rdfs:label "State"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_5fa808c4_e8c0_4520_8bf2_fde507bb1c06
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_5fa808c4_e8c0_4520_8bf2_fde507bb1c06
 :MuPIF_5fa808c4_e8c0_4520_8bf2_fde507bb1c06 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_03085fce_5950_4a5e_9879_d959ab85e3a4 ;
-                                            rdfs:label "set_Service"@en .
+                                            rdfs:label "setService"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_6e2b03ac_1b8b_42ce_9b88_f191dad0f771
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_6e2b03ac_1b8b_42ce_9b88_f191dad0f771
 :MuPIF_6e2b03ac_1b8b_42ce_9b88_f191dad0f771 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_0c9fea85_0fe5_4dc4_a1fc_2339476cd047 ;
                                             rdfs:label "ConstantProperty"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_7064514c_168b_4f68_9885_2bab87574953
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_7064514c_168b_4f68_9885_2bab87574953
 :MuPIF_7064514c_168b_4f68_9885_2bab87574953 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF ,
                                                             [ rdf:type owl:Restriction ;
@@ -244,7 +290,7 @@
                                             rdfs:label "Model"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_7215843b_990e_49d6_b311_ea17eecb8089
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_7215843b_990e_49d6_b311_ea17eecb8089
 :MuPIF_7215843b_990e_49d6_b311_ea17eecb8089 rdf:type owl:Class ;
                                             rdfs:subClassOf :WorkflowEditor ,
                                                             [ rdf:type owl:Restriction ;
@@ -262,19 +308,19 @@
                                             rdfs:label "SimulationWorkflowModel"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_7310a909_e63c_4e75_b893_904b5352f9b7
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_7310a909_e63c_4e75_b893_904b5352f9b7
 :MuPIF_7310a909_e63c_4e75_b893_904b5352f9b7 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_7064514c_168b_4f68_9885_2bab87574953 ;
                                             rdfs:label "Workflow"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_78a6be8c_b1f9_4abe_a676_8efb0a089653
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_78a6be8c_b1f9_4abe_a676_8efb0a089653
 :MuPIF_78a6be8c_b1f9_4abe_a676_8efb0a089653 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF ;
                                             rdfs:label "Metadata"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_82b02f0b_921d_48fc_947d_a22ac00655c8
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_82b02f0b_921d_48fc_947d_a22ac00655c8
 :MuPIF_82b02f0b_921d_48fc_947d_a22ac00655c8 rdf:type owl:Class ;
                                             rdfs:subClassOf :WorkflowEditor ,
                                                             [ rdf:type owl:Restriction ;
@@ -292,33 +338,37 @@
                                             rdfs:label "WorkflowBlock"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_864f8e3c_8147_4432_be77_2228a5662543
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_864f8e3c_8147_4432_be77_2228a5662543
 :MuPIF_864f8e3c_8147_4432_be77_2228a5662543 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_a623a622_f1c5_43fc_bf71_5c28f116a0ca ;
-                                            rdfs:label "solve_Service"@en .
+                                            rdfs:label "solveService"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_8dba132f_c3de_48b7_a57f_81d0993c1f0f
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_8dba132f_c3de_48b7_a57f_81d0993c1f0f
 :MuPIF_8dba132f_c3de_48b7_a57f_81d0993c1f0f rdf:type owl:Class ;
-                                            rdfs:subClassOf :MuPIF_c4d8bca3_7c72_4081_84d2_e99d79929616 ;
+                                            rdfs:subClassOf :Service ;
                                             rdfs:label "DataTypeServices"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_95aad7ab_22a3_40c6_8abe_9bb0d83e4ea9
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_95aad7ab_22a3_40c6_8abe_9bb0d83e4ea9
 :MuPIF_95aad7ab_22a3_40c6_8abe_9bb0d83e4ea9 rdf:type owl:Class ;
-                                            rdfs:subClassOf :MuPIF ;
+                                            rdfs:subClassOf :WorkflowEditor ;
                                             rdfs:label "Unit"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_9a1891c8_e608_487f_82fb_bfc04d975096
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_9a1891c8_e608_487f_82fb_bfc04d975096
 :MuPIF_9a1891c8_e608_487f_82fb_bfc04d975096 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_03085fce_5950_4a5e_9879_d959ab85e3a4 ;
-                                            rdfs:label "solveStep_Service"@en .
+                                            rdfs:label "solveStepService"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_a107aa49_ecd7_4997_94d5_a90110763d42
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_a107aa49_ecd7_4997_94d5_a90110763d42
 :MuPIF_a107aa49_ecd7_4997_94d5_a90110763d42 rdf:type owl:Class ;
                                             rdfs:subClassOf :EDM ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :entityRelation ;
+                                                              owl:someValuesFrom :MuPIF_a107aa49_ecd7_4997_94d5_a90110763d42
+                                                            ] ,
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty :MuPIF_42b451bd_f9d8_4f30_a6f8_dab399439186 ;
                                                               owl:someValuesFrom <http://emmo.info/emmo/middle/reductionistic#EMMO_52211e5e_d767_4812_845e_eb6b402c476a>
@@ -330,9 +380,9 @@
                                             rdfs:label "Entity"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_a623a622_f1c5_43fc_bf71_5c28f116a0ca
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_a623a622_f1c5_43fc_bf71_5c28f116a0ca
 :MuPIF_a623a622_f1c5_43fc_bf71_5c28f116a0ca rdf:type owl:Class ;
-                                            rdfs:subClassOf :MuPIF_c4d8bca3_7c72_4081_84d2_e99d79929616 ,
+                                            rdfs:subClassOf :Service ,
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty :MuPIF_b1fbdf0c_1c0f_41d1_86d0_fcf0c56284d6 ;
                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
@@ -341,7 +391,7 @@
                                             rdfs:label "WorkflowServices"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_b27e346d_1a71_45c7_b6de_e90b40a1b44a
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_b27e346d_1a71_45c7_b6de_e90b40a1b44a
 :MuPIF_b27e346d_1a71_45c7_b6de_e90b40a1b44a rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF ,
                                                             [ rdf:type owl:Restriction ;
@@ -358,28 +408,28 @@
                                                               owl:onProperty :MuPIF_0dbc68a0_37b9_4c2e_b531_8380f50e1c44 ;
                                                               owl:someValuesFrom xsd:string
                                                             ] ;
-                                            rdfs:label "Variable"@en .
+                                            rdfs:label "DataVariable"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_ba56ca0e_39f9_4af6_869d_d1cf01ec0dbb
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_ba56ca0e_39f9_4af6_869d_d1cf01ec0dbb
 :MuPIF_ba56ca0e_39f9_4af6_869d_d1cf01ec0dbb rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF ;
                                             rdfs:label "DataType"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_c4d8bca3_7c72_4081_84d2_e99d79929616
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_c4d8bca3_7c72_4081_84d2_e99d79929616
 :MuPIF_c4d8bca3_7c72_4081_84d2_e99d79929616 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF ;
-                                            rdfs:label "Service"@en .
+                                            rdfs:label "Services"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_c5acba59_ef23_4137_8841_548633e6a2f6
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_c5acba59_ef23_4137_8841_548633e6a2f6
 :MuPIF_c5acba59_ef23_4137_8841_548633e6a2f6 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_82b02f0b_921d_48fc_947d_a22ac00655c8 ;
                                             rdfs:label "ifBlock"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_e46c8863_3745_48ed_bb1e_45da15e60166
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_e46c8863_3745_48ed_bb1e_45da15e60166
 :MuPIF_e46c8863_3745_48ed_bb1e_45da15e60166 rdf:type owl:Class ;
                                             rdfs:subClassOf :EDM ,
                                                             [ rdf:type owl:Restriction ;
@@ -389,7 +439,7 @@
                                             rdfs:label "Process"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f330ca6c_68d9_42c3_ac75_4c726e9dc798
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_f330ca6c_68d9_42c3_ac75_4c726e9dc798
 :MuPIF_f330ca6c_68d9_42c3_ac75_4c726e9dc798 rdf:type owl:Class ;
                                             rdfs:subClassOf :WorkflowEditor ,
                                                             [ rdf:type owl:Restriction ;
@@ -408,17 +458,17 @@
                                             rdfs:label "DataLink"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_fd95ccef_2edc_400e_80ee_0c62c38c6824
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#MuPIF_fd95ccef_2edc_400e_80ee_0c62c38c6824
 :MuPIF_fd95ccef_2edc_400e_80ee_0c62c38c6824 rdf:type owl:Class ;
                                             rdfs:subClassOf :MuPIF_82b02f0b_921d_48fc_947d_a22ac00655c8 ;
                                             rdfs:label "sequentialBlock"@en .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#Perspective
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#Perspective
 :Perspective rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#WorkflowEditor
+###  http://www.semanticweb.org/bp/ontologies/2023/0/untitled-ontology-23#WorkflowEditor
 :WorkflowEditor rdf:type owl:Class ;
                 rdfs:subClassOf :Perspective .
 
