@@ -1,0 +1,2333 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined",
+      "en"
+    ],
+    "baseIris": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+      "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "http://www.w3.org/2002/07/owl",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://emmo.info/emmo/middle/reductionistic"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title": {
+      "en": "MuPIF ontology"
+    },
+    "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+    "author": [
+      "Vaclav Smilauer",
+      "Borek Patzak",
+      "Stanislav Sulc"
+    ],
+    "description": {
+      "en": "MuPIF ontology contains ontological model of MuPIF. The ontology is organized into different perspectives. MuPIF core perspective provides an ontological model of MuPIF. EDM Perspective describes  Data Management System (DMS), and Workflow Editor Perspective contains the ontological description of concepts used in MuPIF Workflow editor"
+    },
+    "other": {
+      "license": [
+        {
+          "identifier": "license",
+          "language": "undefined",
+          "value": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "type": "label"
+        }
+      ],
+      "creator": [
+        {
+          "identifier": "creator",
+          "language": "undefined",
+          "value": "Borek Patzak",
+          "type": "label"
+        },
+        {
+          "identifier": "creator",
+          "language": "undefined",
+          "value": "Stanislav Sulc",
+          "type": "label"
+        },
+        {
+          "identifier": "creator",
+          "language": "undefined",
+          "value": "Vaclav Smilauer",
+          "type": "label"
+        }
+      ],
+      "publisher": [
+        {
+          "identifier": "publisher",
+          "language": "undefined",
+          "value": "Mupif.org",
+          "type": "label"
+        }
+      ],
+      "abstract": [
+        {
+          "identifier": "abstract",
+          "language": "en",
+          "value": "MuPIF Ontology. MuPIF is MuPIF is open-source, modular, object-oriented integration platform allowing to create complex, distributed, multiphysics simulation workflows across the scales and processing chains by combining existing simulation tools. Platform comes with data management system allowing to build digital twin representations of physical systems.",
+          "type": "label"
+        }
+      ],
+      "title": [
+        {
+          "identifier": "title",
+          "language": "en",
+          "value": "MuPIF ontology",
+          "type": "label"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.33",
+      "translation": [
+        375.68,
+        220.27
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "34",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "41",
+      "type": "owl:Class"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "43",
+      "type": "owl:Class"
+    },
+    {
+      "id": "59",
+      "type": "owl:Class"
+    },
+    {
+      "id": "40",
+      "type": "owl:Class"
+    },
+    {
+      "id": "26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "54",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "61",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "63",
+      "type": "owl:Class"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "79",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "56",
+      "type": "owl:Class"
+    },
+    {
+      "id": "50",
+      "type": "owl:Class"
+    },
+    {
+      "id": "94",
+      "type": "owl:Class"
+    },
+    {
+      "id": "51",
+      "type": "owl:Class"
+    },
+    {
+      "id": "29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "81",
+      "type": "owl:Class"
+    },
+    {
+      "id": "64",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "107",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "42",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "86",
+      "type": "owl:Class"
+    },
+    {
+      "id": "84",
+      "type": "owl:Class"
+    },
+    {
+      "id": "39",
+      "type": "owl:Class"
+    },
+    {
+      "id": "89",
+      "type": "owl:Class"
+    },
+    {
+      "id": "70",
+      "type": "owl:Class"
+    },
+    {
+      "id": "23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "31",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#Perspective",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "Perspective"
+      },
+      "pos": [
+        847.43,
+        225.69
+      ]
+    },
+    {
+      "id": "7",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_7310a909_e63c_4e75_b893_904b5352f9b7",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_7310a909_e63c_4e75_b893_904b5352f9b7",
+        "en": "Workflow"
+      },
+      "pos": [
+        1330.88,
+        1132.17
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_864f8e3c_8147_4432_be77_2228a5662543",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_864f8e3c_8147_4432_be77_2228a5662543",
+        "en": "solveService"
+      },
+      "pos": [
+        -714.95,
+        836.36
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        1503.96,
+        1810.07
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_6e2b03ac_1b8b_42ce_9b88_f191dad0f771",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_6e2b03ac_1b8b_42ce_9b88_f191dad0f771",
+        "en": "ConstantProperty"
+      },
+      "pos": [
+        20.55,
+        1733.12
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1052.72,
+        87.01
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1797.77,
+        874.93
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF"
+      },
+      "pos": [
+        742.93,
+        745.07
+      ]
+    },
+    {
+      "id": "41",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#Service",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "Service"
+      },
+      "pos": [
+        1.2,
+        521.55
+      ]
+    },
+    {
+      "id": "38",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_78a6be8c_b1f9_4abe_a676_8efb0a089653",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_78a6be8c_b1f9_4abe_a676_8efb0a089653",
+        "en": "Metadata"
+      },
+      "pos": [
+        940.15,
+        1078.11
+      ]
+    },
+    {
+      "id": "43",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_03085fce_5950_4a5e_9879_d959ab85e3a4",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_03085fce_5950_4a5e_9879_d959ab85e3a4",
+        "en": "ModelServices"
+      },
+      "pos": [
+        426.57,
+        49.7
+      ]
+    },
+    {
+      "id": "59",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_5fa808c4_e8c0_4520_8bf2_fde507bb1c06",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_5fa808c4_e8c0_4520_8bf2_fde507bb1c06",
+        "en": "setService"
+      },
+      "pos": [
+        742.2,
+        -229.52
+      ]
+    },
+    {
+      "id": "40",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_c4d8bca3_7c72_4081_84d2_e99d79929616",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_c4d8bca3_7c72_4081_84d2_e99d79929616",
+        "en": "Services"
+      },
+      "pos": [
+        252.7,
+        822.06
+      ]
+    },
+    {
+      "id": "26",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_a623a622_f1c5_43fc_bf71_5c28f116a0ca",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_a623a622_f1c5_43fc_bf71_5c28f116a0ca",
+        "en": "WorkflowServices"
+      },
+      "pos": [
+        -413.72,
+        639.41
+      ]
+    },
+    {
+      "id": "54",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_7215843b_990e_49d6_b311_ea17eecb8089",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_7215843b_990e_49d6_b311_ea17eecb8089",
+        "en": "SimulationWorkflowModel"
+      },
+      "pos": [
+        1818.97,
+        394.44
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#WorkflowEditor",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "WorkflowEditor"
+      },
+      "pos": [
+        1396.78,
+        336.24
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://emmo.info/emmo/middle/reductionistic#EMMO_52211e5e_d767_4812_845e_eb6b402c476a",
+      "baseIri": "http://emmo.info/emmo/middle/reductionistic",
+      "label": {
+        "IRI-based": "EMMO_52211e5e_d767_4812_845e_eb6b402c476a",
+        "undefined": "EMMO:Existent"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        -295.87,
+        -430.69
+      ]
+    },
+    {
+      "id": "61",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#ServiceParameterType",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "ServiceParameterType"
+      },
+      "pos": [
+        -183.44,
+        775.89
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_82b02f0b_921d_48fc_947d_a22ac00655c8",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_82b02f0b_921d_48fc_947d_a22ac00655c8",
+        "en": "WorkflowBlock"
+      },
+      "pos": [
+        1513.27,
+        40.29
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_7064514c_168b_4f68_9885_2bab87574953",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_7064514c_168b_4f68_9885_2bab87574953",
+        "en": "Model"
+      },
+      "pos": [
+        1170.83,
+        776.74
+      ]
+    },
+    {
+      "id": "63",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_9a1891c8_e608_487f_82fb_bfc04d975096",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_9a1891c8_e608_487f_82fb_bfc04d975096",
+        "en": "solveStepService"
+      },
+      "pos": [
+        657.02,
+        -325.03
+      ]
+    },
+    {
+      "id": "32",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_b27e346d_1a71_45c7_b6de_e90b40a1b44a",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_b27e346d_1a71_45c7_b6de_e90b40a1b44a",
+        "en": "DataVariable"
+      },
+      "pos": [
+        1092.45,
+        362.57
+      ]
+    },
+    {
+      "id": "79",
+      "iri": "http://emmo.info/emmo/middle/reductionistic#EMMO_36c79456_e29c_400d_8bd3_0eedddb82652",
+      "baseIri": "http://emmo.info/emmo/middle/reductionistic",
+      "label": {
+        "IRI-based": "EMMO_36c79456_e29c_400d_8bd3_0eedddb82652",
+        "undefined": "EMMO:State"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        -61.14,
+        125.31
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_a107aa49_ecd7_4997_94d5_a90110763d42",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_a107aa49_ecd7_4997_94d5_a90110763d42",
+        "en": "Entity"
+      },
+      "pos": [
+        48.16,
+        -244.89
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_4841755e_b75b_41b4_972e_a2e0c0ffa6f0",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_4841755e_b75b_41b4_972e_a2e0c0ffa6f0",
+        "en": "SimulationWorkflowExecution"
+      },
+      "pos": [
+        -13.46,
+        -122.94
+      ]
+    },
+    {
+      "id": "50",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_e46c8863_3745_48ed_bb1e_45da15e60166",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_e46c8863_3745_48ed_bb1e_45da15e60166",
+        "en": "Process"
+      },
+      "pos": [
+        100.53,
+        -520.44
+      ]
+    },
+    {
+      "id": "94",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_134e7b35_7990_419b_963e_26f8c7145663",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_134e7b35_7990_419b_963e_26f8c7145663",
+        "en": "Field"
+      },
+      "pos": [
+        590.35,
+        1606.8
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_4eb6c6f6_d7a7_47f9_adb9_75a06e290299",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_4eb6c6f6_d7a7_47f9_adb9_75a06e290299",
+        "en": "ProcessState"
+      },
+      "pos": [
+        390.53,
+        -380.89
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_0c9fea85_0fe5_4dc4_a1fc_2339476cd047",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_0c9fea85_0fe5_4dc4_a1fc_2339476cd047",
+        "en": "Property"
+      },
+      "pos": [
+        330.53,
+        1550.14
+      ]
+    },
+    {
+      "id": "81",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_95aad7ab_22a3_40c6_8abe_9bb0d83e4ea9",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_95aad7ab_22a3_40c6_8abe_9bb0d83e4ea9",
+        "en": "Unit"
+      },
+      "pos": [
+        1808.46,
+        227.17
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_33155833_5a46_428b_a828_4c03c126646f",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_33155833_5a46_428b_a828_4c03c126646f",
+        "en": "getService"
+      },
+      "pos": [
+        546.09,
+        -382.94
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#EDM",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "EDM"
+      },
+      "pos": [
+        461.33,
+        -250.93
+      ]
+    },
+    {
+      "id": "107",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -18.93,
+        1280.14
+      ]
+    },
+    {
+      "id": "42",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_8dba132f_c3de_48b7_a57f_81d0993c1f0f",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_8dba132f_c3de_48b7_a57f_81d0993c1f0f",
+        "en": "DataTypeServices"
+      },
+      "pos": [
+        -374.61,
+        405.46
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_c5acba59_ef23_4137_8841_548633e6a2f6",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_c5acba59_ef23_4137_8841_548633e6a2f6",
+        "en": "ifBlock"
+      },
+      "pos": [
+        1525.33,
+        -370.51
+      ]
+    },
+    {
+      "id": "86",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_4356272c_038e_4883_8092_2dfe01810e0c",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_4356272c_038e_4883_8092_2dfe01810e0c",
+        "en": "ModelBlock"
+      },
+      "pos": [
+        1521.65,
+        528.37
+      ]
+    },
+    {
+      "id": "84",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_4b213c59_bd28_40f2_9686_5304fcae4a43",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_4b213c59_bd28_40f2_9686_5304fcae4a43",
+        "en": "doWhileBlock"
+      },
+      "pos": [
+        1716.54,
+        -318.2
+      ]
+    },
+    {
+      "id": "39",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_ba56ca0e_39f9_4af6_869d_d1cf01ec0dbb",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_ba56ca0e_39f9_4af6_869d_d1cf01ec0dbb",
+        "en": "DataType"
+      },
+      "pos": [
+        583.82,
+        1229.09
+      ]
+    },
+    {
+      "id": "89",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_fd95ccef_2edc_400e_80ee_0c62c38c6824",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_fd95ccef_2edc_400e_80ee_0c62c38c6824",
+        "en": "sequentialBlock"
+      },
+      "pos": [
+        1871.8,
+        -150.58
+      ]
+    },
+    {
+      "id": "70",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#ServiceParameter",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "ServiceParameter"
+      },
+      "pos": [
+        -45.58,
+        1021.9
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798",
+        "en": "State"
+      },
+      "pos": [
+        348.82,
+        85.47
+      ]
+    },
+    {
+      "id": "31",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f330ca6c_68d9_42c3_ac75_4c726e9dc798",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_f330ca6c_68d9_42c3_ac75_4c726e9dc798",
+        "en": "DataLink"
+      },
+      "pos": [
+        1636.77,
+        636.4
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "9",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "15",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "16",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "17",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "19",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "22",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "30",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "35",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "36",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "11",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "44",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "45",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "46",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "47",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "48",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "49",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "52",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "53",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "55",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "57",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "58",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "60",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "62",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "14",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "65",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "66",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "67",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "68",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "69",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "71",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "72",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "73",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "74",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "75",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "76",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "77",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "78",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "80",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "82",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "83",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "85",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "87",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "88",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "37",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "91",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "92",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "93",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "13",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "95",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "96",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "97",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "98",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "90",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "99",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "100",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "101",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "102",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "103",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "104",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "105",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "106",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "108",
+      "type": "owl:allValuesFrom"
+    },
+    {
+      "id": "109",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "110",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "111",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "112",
+      "type": "owl:someValuesFrom"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "0",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "1",
+      "range": "2",
+      "pos": [
+        1519.3,
+        -165.11
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_78170d36_d370_4eb9_8aac_0eab0d68ab2d",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_78170d36_d370_4eb9_8aac_0eab0d68ab2d",
+        "en": "composition"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "10",
+      "subproperty": [
+        "13",
+        "14"
+      ],
+      "superproperty": [
+        "11"
+      ],
+      "pos": [
+        1358.09,
+        1746.81
+      ]
+    },
+    {
+      "id": "15",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "6",
+      "range": "3",
+      "pos": [
+        795.18,
+        485.38
+      ]
+    },
+    {
+      "id": "16",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "5",
+      "range": "3",
+      "pos": [
+        1122.11,
+        280.96
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "baseIri": "http://www.w3.org/2002/07/owl",
+      "label": {
+        "IRI-based": "topObjectProperty"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "10",
+      "range": "10",
+      "subproperty": [],
+      "pos": [
+        1663.09,
+        1825.03
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_42b451bd_f9d8_4f30_a6f8_dab399439186",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_42b451bd_f9d8_4f30_a6f8_dab399439186",
+        "en": "hasSpatialPart"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "20",
+      "range": "21",
+      "superproperty": [],
+      "pos": [
+        -123.85,
+        -337.79
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+        "en": "hasPart"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "20",
+      "range": "23",
+      "subproperty": [],
+      "superproperty": [
+        "9"
+      ],
+      "pos": [
+        198.49,
+        -79.71
+      ]
+    },
+    {
+      "id": "27",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "4",
+      "range": "3",
+      "pos": [
+        654.38,
+        -12.62
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be",
+        "en": "hasOutput"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "31",
+      "range": "32",
+      "pos": [
+        1364.61,
+        499.48
+      ]
+    },
+    {
+      "id": "35",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_0dbc68a0_37b9_4c2e_b531_8380f50e1c44",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_0dbc68a0_37b9_4c2e_b531_8380f50e1c44",
+        "en": "Label"
+      },
+      "attributes": [
+        "someValues",
+        "datatype"
+      ],
+      "domain": "31",
+      "range": "34",
+      "pos": [
+        1727.88,
+        771.39
+      ]
+    },
+    {
+      "id": "36",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_c37cc1fc_b82e_4123_a3f3_1226fa7bb2ea",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_c37cc1fc_b82e_4123_a3f3_1226fa7bb2ea",
+        "en": "mapTo"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "10",
+      "superproperty": [
+        "37"
+      ],
+      "pos": [
+        1573.64,
+        1666.5
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_02e87c7d_52fa_4c77_8624_62fa8244e737",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_02e87c7d_52fa_4c77_8624_62fa8244e737",
+        "en": "relation"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "10",
+      "subproperty": [
+        "9",
+        "37"
+      ],
+      "pos": [
+        1347.16,
+        1844.26
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+        "en": "hasPart"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "23",
+      "range": "32",
+      "subproperty": [],
+      "superproperty": [
+        "9"
+      ],
+      "pos": [
+        720.64,
+        224.02
+      ]
+    },
+    {
+      "id": "45",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+        "en": "hasPart"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "23",
+      "range": "23",
+      "subproperty": [],
+      "superproperty": [
+        "9"
+      ],
+      "pos": [
+        274.14,
+        224.48
+      ]
+    },
+    {
+      "id": "46",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_0dbc68a0_37b9_4c2e_b531_8380f50e1c44",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_0dbc68a0_37b9_4c2e_b531_8380f50e1c44",
+        "en": "Label"
+      },
+      "attributes": [
+        "someValues",
+        "datatype"
+      ],
+      "domain": "32",
+      "range": "33",
+      "pos": [
+        1069.74,
+        205.04
+      ]
+    },
+    {
+      "id": "47",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be",
+        "en": "hasOutput"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "2",
+      "range": "32",
+      "pos": [
+        1285.04,
+        159.76
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_abf5d220_f129_4a55_9174_5d4a925b9892",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_abf5d220_f129_4a55_9174_5d4a925b9892",
+        "en": "hasInput"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "2",
+      "range": "32",
+      "superproperty": [
+        "17"
+      ],
+      "pos": [
+        1308.78,
+        196.78
+      ]
+    },
+    {
+      "id": "49",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+        "en": "hasPart"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "50",
+      "range": "51",
+      "subproperty": [],
+      "superproperty": [
+        "9"
+      ],
+      "pos": [
+        245.53,
+        -450.67
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+        "en": "hasPart"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "2",
+      "range": "2",
+      "subproperty": [],
+      "superproperty": [
+        "9"
+      ],
+      "pos": [
+        1547.49,
+        -114.55
+      ]
+    },
+    {
+      "id": "53",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be",
+        "en": "hasOutput"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "54",
+      "range": "31",
+      "pos": [
+        1845.55,
+        596.31
+      ]
+    },
+    {
+      "id": "55",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be",
+        "en": "hasOutput"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "56",
+      "range": "23",
+      "pos": [
+        132.83,
+        27.2
+      ]
+    },
+    {
+      "id": "57",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_abf5d220_f129_4a55_9174_5d4a925b9892",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_abf5d220_f129_4a55_9174_5d4a925b9892",
+        "en": "hasInput"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "56",
+      "range": "23",
+      "superproperty": [
+        "17"
+      ],
+      "pos": [
+        159.73,
+        -16.48
+      ]
+    },
+    {
+      "id": "58",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "59",
+      "range": "43",
+      "pos": [
+        584.39,
+        -89.91
+      ]
+    },
+    {
+      "id": "60",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "61",
+      "range": "40",
+      "pos": [
+        34.63,
+        798.97
+      ]
+    },
+    {
+      "id": "62",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "63",
+      "range": "43",
+      "pos": [
+        541.8,
+        -137.66
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_1c7b9609_b6cd_4f08_a522_2a7c97ec4c5c",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_1c7b9609_b6cd_4f08_a522_2a7c97ec4c5c",
+        "en": "hasUnit"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "10",
+      "superproperty": [
+        "9"
+      ],
+      "pos": [
+        1393.24,
+        1925.73
+      ]
+    },
+    {
+      "id": "65",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "20",
+      "range": "4",
+      "pos": [
+        254.75,
+        -247.91
+      ]
+    },
+    {
+      "id": "66",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "23",
+      "range": "4",
+      "pos": [
+        405.07,
+        -82.73
+      ]
+    },
+    {
+      "id": "67",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "64",
+      "range": "43",
+      "pos": [
+        486.33,
+        -166.62
+      ]
+    },
+    {
+      "id": "68",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "50",
+      "range": "4",
+      "pos": [
+        280.93,
+        -385.68
+      ]
+    },
+    {
+      "id": "69",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "42",
+      "range": "41",
+      "pos": [
+        -186.7,
+        463.5
+      ]
+    },
+    {
+      "id": "71",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "26",
+      "range": "41",
+      "pos": [
+        -206.26,
+        580.48
+      ]
+    },
+    {
+      "id": "72",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "28",
+      "range": "29",
+      "pos": [
+        175.54,
+        1641.63
+      ]
+    },
+    {
+      "id": "73",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "43",
+      "range": "41",
+      "pos": [
+        213.89,
+        285.62
+      ]
+    },
+    {
+      "id": "74",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "56",
+      "range": "50",
+      "pos": [
+        43.53,
+        -321.69
+      ]
+    },
+    {
+      "id": "75",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "40",
+      "range": "6",
+      "pos": [
+        497.82,
+        783.57
+      ]
+    },
+    {
+      "id": "76",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "32",
+      "range": "6",
+      "pos": [
+        917.69,
+        553.82
+      ]
+    },
+    {
+      "id": "77",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "8",
+      "range": "6",
+      "pos": [
+        956.88,
+        760.91
+      ]
+    },
+    {
+      "id": "78",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "23",
+      "range": "79",
+      "pos": [
+        143.84,
+        105.39
+      ]
+    },
+    {
+      "id": "80",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "39",
+      "range": "6",
+      "pos": [
+        663.38,
+        987.08
+      ]
+    },
+    {
+      "id": "82",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "38",
+      "range": "6",
+      "pos": [
+        841.54,
+        911.59
+      ]
+    },
+    {
+      "id": "83",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "84",
+      "range": "2",
+      "pos": [
+        1614.9,
+        -138.96
+      ]
+    },
+    {
+      "id": "85",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "86",
+      "range": "2",
+      "pos": [
+        1517.46,
+        284.33
+      ]
+    },
+    {
+      "id": "87",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "7",
+      "range": "8",
+      "pos": [
+        1250.85,
+        954.45
+      ]
+    },
+    {
+      "id": "88",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "89",
+      "range": "2",
+      "pos": [
+        1692.53,
+        -55.14
+      ]
+    },
+    {
+      "id": "37",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_97fb19ae_6f50_4435_a3f1_876d25843feb",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_97fb19ae_6f50_4435_a3f1_876d25843feb",
+        "en": "connection"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "10",
+      "subproperty": [
+        "36",
+        "90"
+      ],
+      "superproperty": [
+        "11"
+      ],
+      "pos": [
+        1453.75,
+        1660.89
+      ]
+    },
+    {
+      "id": "91",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "2",
+      "range": "5",
+      "pos": [
+        1455.02,
+        188.26
+      ]
+    },
+    {
+      "id": "92",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "54",
+      "range": "5",
+      "pos": [
+        1607.88,
+        365.34
+      ]
+    },
+    {
+      "id": "93",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "31",
+      "range": "5",
+      "pos": [
+        1516.78,
+        486.32
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_42c46cf8_80eb_4b0f_806f_cc9da0e4995e",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_42c46cf8_80eb_4b0f_806f_cc9da0e4995e",
+        "en": "hasLabel"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "10",
+      "superproperty": [
+        "9"
+      ],
+      "pos": [
+        1489.73,
+        1967.85
+      ]
+    },
+    {
+      "id": "95",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_b1fbdf0c_1c0f_41d1_86d0_fcf0c56284d6",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_b1fbdf0c_1c0f_41d1_86d0_fcf0c56284d6",
+        "en": "hasService"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "10",
+      "pos": [
+        1612.65,
+        1924.66
+      ]
+    },
+    {
+      "id": "96",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "51",
+      "range": "23",
+      "pos": [
+        369.68,
+        -147.71
+      ]
+    },
+    {
+      "id": "97",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "29",
+      "range": "39",
+      "pos": [
+        457.18,
+        1389.62
+      ]
+    },
+    {
+      "id": "98",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "81",
+      "range": "5",
+      "pos": [
+        1602.62,
+        281.7
+      ]
+    },
+    {
+      "id": "90",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_0d658f90_92c5_4455_a931_cafc3c2b488b",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_0d658f90_92c5_4455_a931_cafc3c2b488b",
+        "en": "hasNext"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "10",
+      "superproperty": [
+        "37"
+      ],
+      "pos": [
+        1643.96,
+        1730.97
+      ]
+    },
+    {
+      "id": "99",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "70",
+      "range": "40",
+      "pos": [
+        103.56,
+        921.98
+      ]
+    },
+    {
+      "id": "100",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "41",
+      "range": "40",
+      "pos": [
+        126.95,
+        671.8
+      ]
+    },
+    {
+      "id": "101",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "94",
+      "range": "39",
+      "pos": [
+        587.09,
+        1417.95
+      ]
+    },
+    {
+      "id": "102",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "25",
+      "range": "26",
+      "pos": [
+        -564.34,
+        737.89
+      ]
+    },
+    {
+      "id": "103",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+        "en": "hasPart"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "8",
+      "range": "38",
+      "subproperty": [],
+      "superproperty": [
+        "9"
+      ],
+      "pos": [
+        1055.49,
+        927.42
+      ]
+    },
+    {
+      "id": "104",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+        "en": "hasPart"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "41",
+      "range": "70",
+      "subproperty": [],
+      "superproperty": [
+        "9"
+      ],
+      "pos": [
+        -22.19,
+        771.72
+      ]
+    },
+    {
+      "id": "105",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_91d8dae8_ba0f_42df_81e8_1d2d5a6d7c89",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_91d8dae8_ba0f_42df_81e8_1d2d5a6d7c89",
+        "en": "hasType"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "70",
+      "range": "61",
+      "pos": [
+        -114.51,
+        898.89
+      ]
+    },
+    {
+      "id": "106",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#Name",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "Name"
+      },
+      "attributes": [
+        "someValues",
+        "datatype"
+      ],
+      "domain": "70",
+      "range": "107",
+      "pos": [
+        -30.21,
+        1170.89
+      ]
+    },
+    {
+      "id": "108",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+        "en": "hasPart"
+      },
+      "attributes": [
+        "object",
+        "allValues"
+      ],
+      "domain": "86",
+      "range": "8",
+      "subproperty": [],
+      "superproperty": [
+        "9"
+      ],
+      "pos": [
+        1346.24,
+        652.56
+      ]
+    },
+    {
+      "id": "109",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b",
+        "en": "hasPart"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "54",
+      "range": "2",
+      "subproperty": [],
+      "superproperty": [
+        "9"
+      ],
+      "pos": [
+        1666.12,
+        217.36
+      ]
+    },
+    {
+      "id": "110",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_abf5d220_f129_4a55_9174_5d4a925b9892",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_abf5d220_f129_4a55_9174_5d4a925b9892",
+        "en": "hasInput"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "54",
+      "range": "31",
+      "superproperty": [
+        "17"
+      ],
+      "pos": [
+        1812.61,
+        571.38
+      ]
+    },
+    {
+      "id": "111",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_2d16510d_b1f4_44c8_8502_4120330ab5be",
+        "en": "hasOutput"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "8",
+      "range": "32",
+      "pos": [
+        1100.98,
+        580.25
+      ]
+    },
+    {
+      "id": "112",
+      "iri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif#MuPIF_abf5d220_f129_4a55_9174_5d4a925b9892",
+      "baseIri": "http://www.semanticweb.org/bp/ontologies/2023/0/mupif",
+      "label": {
+        "IRI-based": "MuPIF_abf5d220_f129_4a55_9174_5d4a925b9892",
+        "en": "hasInput"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "8",
+      "range": "32",
+      "superproperty": [
+        "17"
+      ],
+      "pos": [
+        1156.37,
+        570
+      ]
+    }
+  ]
+}
