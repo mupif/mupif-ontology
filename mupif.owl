@@ -4,9 +4,17 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @base <http://www.semanticweb.org/bp/ontologies/2023/0/mupif> .
 
-<http://www.semanticweb.org/bp/ontologies/2023/0/mupif> rdf:type owl:Ontology .
+<http://www.semanticweb.org/bp/ontologies/2023/0/mupif> rdf:type owl:Ontology ;
+        dcterms:abstract """MuPIF Ontology. MuPIF is MuPIF is open-source, modular, object-oriented integration platform allowing to create complex, distributed, multiphysics simulation workflows across the scales and processing chains by combining existing simulation tools. Platform comes with data management system allowing to build digital twin representations of physical systems."""@en;
+        dcterms:creator "Borek Patzak","Stanislav Sulc", "Vaclav Smilauer";
+        dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
+        dcterms:publisher "Mupif.org" ;
+        dcterms:title "MuPIF ontology"@en ;
+        dcterms:description """MuPIF ontology contains ontological model of MuPIF. The ontology is organized into different perspectives. MuPIF core perspective provides an ontological model of MuPIF. EDM Perspective describes  Data Management System (DMS), and Workflow Editor Perspective contains the ontological description of concepts used in MuPIF Workflow editor"""@en .
+
 
 #################################################################
 #    Object Properties
@@ -84,13 +92,6 @@
 :MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b rdf:type owl:ObjectProperty ;
                                             rdfs:subPropertyOf :MuPIF_78170d36_d370_4eb9_8aac_0eab0d68ab2d ;
                                             rdfs:label "hasPart"@en .
-
-
-###  http://www.semanticweb.org/bp/ontologies/2023/0/mupif#entityRelation
-:entityRelation rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf :MuPIF_02e87c7d_52fa_4c77_8624_62fa8244e737 ;
-                rdfs:range :MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798 ,
-                           :MuPIF_a107aa49_ecd7_4997_94d5_a90110763d42 .
 
 
 #################################################################
@@ -210,10 +211,6 @@
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty :MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b ;
                                                               owl:someValuesFrom :MuPIF_b27e346d_1a71_45c7_b6de_e90b40a1b44a
-                                                            ] ,
-                                                            [ rdf:type owl:Restriction ;
-                                                              owl:onProperty :entityRelation ;
-                                                              owl:someValuesFrom :MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798
                                                             ] ;
                                             rdfs:label "State"@en .
 
@@ -345,10 +342,6 @@
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty :MuPIF_f32d8648_94f1_4382_9f3a_c381df48b29b ;
                                                               owl:someValuesFrom :MuPIF_5594d200_19fe_4c24_92e9_745a1af9b798
-                                                            ] ,
-                                                            [ rdf:type owl:Restriction ;
-                                                              owl:onProperty :entityRelation ;
-                                                              owl:someValuesFrom :MuPIF_a107aa49_ecd7_4997_94d5_a90110763d42
                                                             ] ;
                                             rdfs:label "Entity"@en .
 
