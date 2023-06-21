@@ -3,6 +3,8 @@ MuPIF is open-source, modular, object-oriented integration platform allowing to 
 
 In order to be able to view and navigate the MuPIF ontology we recommend to download the Protégé editor from [https://protege.stanford.edu/products.php#desktop-protege](https://protege.stanford.edu/products.php#desktop-protege).
 
+<a href="https://service.tib.eu/webvowl/#url=https://raw.githubusercontent.com/mupif/mupif-ontology/main/exports/mupif.owl.json"> <img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a>  
+
 ## MuPIF Core Perspective
 MuPIF core perspective provides an ontological model of MuPIF. The fundamental MuPIF entities are
 * Model - representing the (mathematical) description of a system or process. Model has input and output variables and services that allow to manipulate the model state and steer it.
